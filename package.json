@@ -1,0 +1,48 @@
+{
+  "name": "cosmic-fountain",
+  "version": "1.0.0",
+  "description": "A self-healing development environment with intelligent error recovery and adaptive system monitoring",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "heal": "node scripts/heal.js",
+    "monitor": "node scripts/monitor.js",
+    "test": "jest",
+    "lint": "eslint src/ scripts/",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [
+    "self-healing",
+    "error-recovery",
+    "monitoring",
+    "automation",
+    "devops"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^11.0.0",
+    "express": "^5.1.0",
+    "fs-extra": "^11.1.1",
+    "node-cron": "^3.0.2",
+    "systeminformation": "^5.21.7",
+    "winston": "^3.10.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.45.0",
+    "jest": "^29.6.2",
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/cosmic-fountain.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/cosmic-fountain/issues"
+  },
+  "homepage": "https://github.com/yourusername/cosmic-fountain#readme"
+}
