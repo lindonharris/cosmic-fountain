@@ -1,0 +1,3 @@
+[submodule "the-dojo"]
+	path = the-dojo
+	url = https://github.com/lindonharris/the-dojo.git
